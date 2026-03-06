@@ -24,6 +24,9 @@ mlartifacts/
 *.DS_Store
 .pytest_cache/
 
+# Word doc (binary, GitHub can't display; keep locally)
+docs/MLOps Hospital Proposal.docx
+
 # Local proposal working files (not for repo)
 Proposal_补充与修改建议.md
 Proposal_vs_Assignment_Checklist.md

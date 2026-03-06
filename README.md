@@ -28,7 +28,6 @@ Marian, Marco, Yaxin, Lorenz, Jorge, Omar
 │   └── IDS_mapping.csv      # Admission/discharge ID mapping
 ├── docs/                    # Documentation and proposals
 │   ├── MLOps_Hospital_Proposal_Revised.md
-│   ├── MLOps Hospital Proposal.docx
 │   └── MLOps - Group Project Checkpoint Assignment.pdf
 ├── notebooks/               # Analysis and exploration
 │   ├── EDA.ipynb
