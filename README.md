@@ -22,17 +22,20 @@ Marian, Marco, Yaxin, Lorenz, Jorge, Omar
 
 ## Repository Structure
 
-| File / Folder | Description |
-|---------------|-------------|
-| `MLOps_Hospital_Proposal_Revised.md` | Revised proposal (Markdown) — full assignment compliance |
-| `MLOps Hospital Proposal.docx` | Original proposal (Word) |
-| `MLOps - Group Project Checkpoint Assignment.pdf` | Assignment requirements and grading rubric |
-| `Proposal_补充与修改建议.md` | Proposal revision checklist vs. assignment (Chinese) |
-| `Proposal_vs_Assignment_Checklist.md` | Proposal vs. assignment mapping |
-| `EDA.ipynb` | Exploratory data analysis notebook |
-| `EDA.md` | EDA summary and key findings |
-| `diabetic_data.csv` | Diabetes 130-US Hospitals dataset |
-| `IDS_mapping.csv` | Admission/discharge ID mapping for feature engineering |
+```
+├── data/                    # Datasets and mappings
+│   ├── diabetic_data.csv    # Diabetes 130-US Hospitals dataset
+│   └── IDS_mapping.csv      # Admission/discharge ID mapping
+├── docs/                    # Documentation and proposals
+│   ├── MLOps_Hospital_Proposal_Revised.md
+│   ├── MLOps Hospital Proposal.docx
+│   └── MLOps - Group Project Checkpoint Assignment.pdf
+├── notebooks/               # Analysis and exploration
+│   ├── EDA.ipynb
+│   └── EDA.md
+├── README.md
+└── .flake8
+```
 
 ---
 
@@ -45,7 +48,7 @@ Marian, Marco, Yaxin, Lorenz, Jorge, Omar
 - **medical_specialty** 49.1%, **payer_code** 39.6% missing — treat as "Unknown" category  
 - **5 near-zero-variance medications** — candidates for removal  
 
-See `EDA.md` for full details.
+See `notebooks/EDA.md` for full details.
 
 ---
 
@@ -54,7 +57,7 @@ See `EDA.md` for full details.
 1. Clone the repository  
 2. Create a virtual environment: `python -m venv .venv`  
 3. Install dependencies (see `requirements.txt` when available)  
-4. Run `EDA.ipynb` for data exploration  
+4. Run `notebooks/EDA.ipynb` for data exploration  
 
 ---
 
@@ -63,4 +66,3 @@ See `EDA.md` for full details.
 - Strack, B., et al. (2014). Impact of HbA1c Measurement on Hospital Readmission Rates. *BioMed Research International*.  
 - UCI Machine Learning Repository. (2014). Diabetes 130-US Hospitals.  
 - Huyen, C. (2022). *Designing Machine Learning Systems*. O'Reilly Media.
-

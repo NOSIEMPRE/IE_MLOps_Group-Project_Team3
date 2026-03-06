@@ -145,7 +145,7 @@ To avoid potential bias, recall and False Positive Rate are continuously monitor
 **Block diagram — data flow:**
 
 ```
-diabetic_data.csv
+data/diabetic_data.csv
         │
         ▼
    Preprocessing — validation, missing handling, IDS mapping
