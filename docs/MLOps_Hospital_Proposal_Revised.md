@@ -177,7 +177,7 @@ data/diabetic_data.csv
 | Role | Responsibility | Team Member(s) |
 |------|----------------|---------------|
 | Data & EDA | Data exploration, preprocessing, split strategy | TBD |
-| Features | Feature engineering, CCS mapping, engineered features | TBD |
+| Features | Feature engineering, CCS mapping, engineered features | Jorge Vildoso |
 | Modeling | Model training, hyperparameter tuning, evaluation | TBD |
 | Pipeline & MLOps | CI/CD, MLflow, deployment, monitoring | TBD |
 | Documentation | Proposal, README, final report | TBD |
