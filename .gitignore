@@ -15,6 +15,13 @@ mlartifacts/
 # Optional local model mirror (we only care about the S3 version)
 06-cicd/artifacts/model/
 
+# CI/CD: model built in workflow, not committed
+06-cicd/models/
+06-cicd/run_id.txt
+
+# Dataset (downloaded in CI; ~18MB)
+data/diabetic_data.csv
+
 # Secrets file (if you ever use one)
 .env
 
